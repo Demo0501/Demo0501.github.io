@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+} 
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    line-height: 40px ;
+    color: white;
+}
+
+.menu-logo{
+    position: relative;
+    height: 70px;
+    background-color: #ededed; 
+       
+}
+
+.menu-logo nav{
+    position: absolute; 
+    margin-left: 7%;
+    
+}
+.menu-logo nav a{
+    top: 10px;
+    right: 10px;
+    line-height: 70px;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: 500;
+    color: #000;
+}
+.menu-logo .login {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 50px;
+    top: 14px;
+
+
+}
+.link-login2{
+    display: block;
+    text-decoration:none;   
+    color: #000;
+    margin: 60px 0 ;
+    
+}
+.menu-logo .login2 {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 90px;
+    top: 14px;
+    
+    
+}
+.banner{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.banner img{
+    max-width: 100% ;
+}
+
+/* Css cho phần heading của trang web */
+.heading{
+    font-size: 28px;       
+    margin: 30px 0;
+    text-align: center;
+    color: black; 
+    position: relative;   
+    
+}
+ .heading::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    top: 45px;
+    left: 47% ;   
+}
+
+.sanpham{
+    font-size: 20px;       
+    margin: 30px 0;
+    text-align: center;
+    color: black; 
+    position: relative;   
+    right: 40%;
+}
+
+/* san pham ban chay vs san pham dc quan tam */
+.product .list-product .product-item{   
+    /* Chieu dai cua ô sản phẩm */
+    width: 22%;    
+    /* Khoảng cách của những ô sản phẩm */
+    margin: 20px;
+    /* cho phép nhiều sản phẩm trên cùng 1 ô */
+    display: inline-block;
+   
+    
+}
+.product .list-product .product-item:hover{
+   font-weight: 800;
+}
+
+.product .list-product .product-item img  {   
+  max-width: 100%;  
+  border-radius:15%;
+    -moz-border-radius:15%;
+    -webkit-border-radius:15%;
+}
+
+.product .list-product .product-item:hover {
+    transform: scale(1.1);
+}
+
+.product-item  .new-icon {
+    width: 60px;
+    height: 60px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+  }
+
+  /* Css cho phần footer */
+footer{
+    width: 100%;
+    background-color: #ededed;
+    color: black;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display: inline-block;  
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3{
+    margin: 20px 0;
+}
+
+
+ footer .link a{
+     display: block;
+     text-decoration: none;
+     color: black;
+     margin: 20px 0 ;
+ }
+
+ .tacgia{
+     color: white;
+     background: red;
+     text-align: center;
+     padding: 5px;
+ }
+
+ .tacgia p{
+     padding-top: 5px;
+ }
+ 
+ .backtoptop a{
+     padding: 15px;
+     text-align: 15px;
+     border-radius: 50%;
+     font-size: 20px;
+     color: #ededed;
+     background-color: red;
+ }
+

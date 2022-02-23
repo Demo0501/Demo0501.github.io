@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+} 
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* CSs phần header */
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    line-height: 40px ;
+    color: white;
+}
+
+.menu-logo{
+    position: relative;
+    height: 70px;
+    background-color: #ededed; 
+       
+}
+
+.menu-logo nav{
+    position: absolute; 
+    margin-left: 7%;
+    
+}
+.menu-logo nav a{
+    top: 10px;
+    right: 10px;
+    line-height: 70px;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: 500;
+    color: #000;
+}
+.menu-logo .login {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 50px;
+    top: 14px;
+
+
+}
+.link-login2{
+    display: block;
+    text-decoration:none;   
+    color: #000;
+    margin: 60px 0 ;
+    
+}
+.menu-logo .login2 {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 90px;
+    top: 14px;
+    
+    
+}
+
+
+
+/* cho chữ tiêu đề trang web */
+.heading{
+    font-size: 28px;       
+    margin: 30px 0;
+    text-align: center;
+    color: black; 
+    position: relative;   
+}
+ .heading::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    top: 45px;
+    left: 47% ;   
+}
+
+footer{
+    width: 100%;
+    background-color: #ededed;
+    color: black;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display: inline-block;  
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3{
+    margin: 20px 0;
+}
+
+
+ footer .link a{
+     display: block;
+     text-decoration: none;
+     color: black;
+     margin: 20px 0 ;
+ }
+
+ .tacgia{
+     color: white;
+     background: red;
+     text-align: center;
+     padding: 5px;
+ }
+
+ .tacgia p{
+     padding-top: 5px;
+ }
+ 
+ 
+
+ /* CSs cho phần Main */
+ .main {
+     margin-top: 150px;
+ }
+ .main .images{
+     display: flex;
+     gap: 0 50px ;
+     padding: 0 50px;
+ }
+
+ .main .images .images-item{
+    position: relative;
+ }
+ 
+
+
+ .main .images .images-item img {
+     width: 100%;
+ }
+
+ .main .images .images-item .btn-about {
+     position: absolute;
+     top: 75%;
+     left: 30px;
+     text-decoration: none;
+     color: black;
+     font-size: 28px;
+     font-weight: bold;
+     border : 4px solid black;
+     background-color:white;
+ }
+
+ .main .images .images-item .btn-about1 {
+    position: absolute;
+    top: 84%;
+    right: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    border : 4px solid ;
+    background-color: pink;
+    
+}
+
+.main .images .images-item .btn-about:hover {
+    background-color: #989192;
+    transition: all .3s linear;
+    
+}
+.main .images .images-item .btn-about1:hover {
+    background-color: #989192;
+    transition: all .3s linear;
+    
+}
+
+/* Css phần content */
+.content{
+    width: 80%;
+    margin: 0 auto;
+    margin-top : 55px;
+    text-align: justify;
+}
+
+.content .content-item {
+    margin: 50px 0;
+}
+.content .content-item h4{
+    margin-bottom: 20px;
+}
+
+.content .content-item img{
+    width: 100%;
+    padding-top: 25px;
+}
+
+.content .content-item a{
+    text-decoration: none;
+    font-weight: 800;
+    text-shadow: 2px #989192;
+    padding-top: 5px;
+}
+
+.content .content-item h3{
+    text-align: center;
+    padding-top:30px;
+}
+.content .content-item h2{
+    text-align: center;
+    padding-top:30px;
+}
+
+

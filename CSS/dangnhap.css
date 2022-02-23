@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+} 
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* CSs phần header */
+    header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    
+    
+    
+    .thongbao{
+        height: 40px;
+        text-align: center;
+        background-color: red;
+        line-height: 40px ;
+        color: white;
+    }
+    
+    .menu-logo{
+        position: relative;
+        height: 70px;
+        background-color: #ededed; 
+        
+           
+    }
+    
+    .menu-logo nav{
+        position: absolute; 
+        margin-left: 7%;
+        
+            
+    }
+    .menu-logo nav a{
+        top: 10px;
+        right: 10px;
+        line-height: 70px;
+        text-decoration: none;
+        margin: 0px 20px;
+        color: black;
+        font-weight: 500;
+             
+    }
+    
+    .menu-logo nav a:hover{
+        color: red;
+        font-weight: bold;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    /* cho chữ tiêu đề trang web */
+.heading{
+    font-size: 28px;       
+    margin: 30px 0;
+    text-align: center;
+    color: black; 
+    position: relative;   
+}
+ .heading::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    top: 45px;
+    left: 47% ;   
+}
+
+.link-login{
+    display: block;
+    text-decoration:none;   
+    color: #000;
+    margin: 30px 0;
+    
+}
+.menu-logo .login {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 50px;
+    top: 14px;
+    
+}
+.link-login2{
+    display: block;
+    text-decoration:none;   
+    color: #000;
+    margin: 60px 0 ;
+    
+}
+.menu-logo .login2 {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 90px;
+    top: 14px;
+    
+    
+}
+
+.backgrouplogin{
+    display: flex;
+    width: 99vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://theme.hstatic.net/200000278317/1000769064/14/slideshow_6.jpg?v=224) no-repeat center;
+    background-size: cover;
+}
+.framelogin{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 2px 120px;
+}
+.framelogin label{
+    color: #000000;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.framelogin input{
+    background: 0 0;
+    outline: unset;
+    border: none;
+    padding: 10px 0px;
+    font-size: 20px;
+    border-bottom: 1px solid #d6cdbc;
+    width: 100%;
+    outline: 0;
+    box-shadow: none;
+}
+.login{
+    color: white;
+}
+.buttonlogin{
+    background: #ec0909;
+    box-shadow: 0px 3px 25px 0px rgba(0, 0, 0, 0.384);
+    color: #ffffff;
+    margin-top: 24px;
+    font-size: 20px;
+    overflow: visible;
+    min-height: 42px;
+    height: auto;
+    display: flex;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.buttonlogin:hover{
+    background-color: #ffffff;
+}

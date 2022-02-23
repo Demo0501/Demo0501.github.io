@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+} 
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    line-height: 40px ;
+    color: white;
+}
+
+.menu-logo{
+    position: relative;
+    height: 70px;
+    background-color: #ededed; 
+       
+}
+
+.menu-logo nav{
+    position: absolute; 
+    margin-left: 7%;
+    
+}
+.menu-logo nav a{
+    top: 10px;
+    right: 10px;
+    line-height: 70px;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: 500;
+    color: #000;
+}
+.menu-logo .login {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 50px;
+    top: 14px;
+
+
+}
+.link-login2{
+    display: block;
+    text-decoration:none;   
+    color: #000;
+    margin: 60px 0 ;
+    
+}
+.menu-logo .login2 {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 90px;
+    top: 14px;
+    
+    
+}
+
+.giaidap{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin:  0 auto;
+    margin-top: 110px;
+}
+.giaidap h3{
+    text-align: center;
+    margin: 30px 0;
+}
+.giaidap p{
+    margin-bottom: 10px;
+}
+.giaidap textarea{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px ;
+}
+.giaidap input{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px ;
+}
+.giaidap button{
+    background-color: rgba(247, 23, 23, 0.596);
+    outline: none;
+    color: black;
+    font-weight: 900;
+    border: none;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-radius: 5px;   
+}
+
+footer{
+    width: 100%;
+    background-color: #ededed;
+    color: black;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display: inline-block;  
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3{
+    margin: 20px 0;
+}
+
+
+ footer .link a{
+     display: block;
+     text-decoration: none;
+     color: black;
+     margin: 20px 0 ;
+ }
+
+ .tacgia{
+     color: white;
+     background: red;
+     text-align: center;
+     padding: 5px;
+ }
+
+ .tacgia p{
+     padding-top: 5px;
+ }
+ 
+ .backtoptop a{
+     padding: 15px;
+     text-align: 15px;
+     border-radius: 50%;
+     font-size: 20px;
+     color: #ededed;
+     background-color: red;
+ }
